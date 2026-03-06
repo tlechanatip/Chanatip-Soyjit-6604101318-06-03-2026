@@ -37,7 +37,7 @@ export default defineConfig((ctx) => {
     // Full list of options: https://v2.quasar.dev/quasar-cli-webpack/quasar-config-file#build
     build: {
       env: {
-        API_URL: 'https://ch3-1-proxy-server1-0fb5.onrender.com'
+        API_URL: 'https://chanatip-soyjit-6604101318-06-03-2026.onrender.com'
       },
       // publicPath: '/',
       vueRouterMode: 'hash', // available values: 'hash', 'history'

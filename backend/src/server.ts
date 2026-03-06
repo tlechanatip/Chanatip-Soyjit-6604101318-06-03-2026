@@ -52,6 +52,13 @@ app.get('/', (_req, res) => {
   });
 });
 
+app.use('/api/health', (_req, res) => {
+  res.json({
+    message: 'API พร้อมใช้งาน (Supabase + Prisma + Quasar Frontend)',
+    timestamp: new Date().toISOString(),
+  });
+});
+
 // Task API (Lab 2.1)
 app.use('/api/tasks', taskRoutes);
 
